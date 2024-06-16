@@ -18,6 +18,8 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: italic;
+    color: #006769;
+    text-shadow: #40A578 1px 0 10px;
 }
 
 
@@ -62,10 +64,10 @@ html {
   }
   
   a:hover {
-    color: grey;
+    color: #40A578;
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(181, 181, 181);
+    text-decoration-color: #40A578;
   }
   
   .logo {
@@ -178,6 +180,10 @@ html {
     gap: 5rem;
     height: 80vh;
   }
+
+  .profile-pic{
+    border-radius: 50%;
+  }
   
   .section__pic-container {
     display: flex;
@@ -256,7 +262,8 @@ html {
   }
   
   .btn-color-1:hover {
-    background: rgb(0, 0, 0);
+    border: #40A578 0.1rem solid;
+    background: #40A578;
   }
   
   .btn-color-2 {
@@ -264,7 +271,8 @@ html {
   }
   
   .btn-color-2:hover {
-    border: rgb(255, 255, 255) 0.1rem solid;
+    border: #40A578 0.1rem solid;
+    background: #40A578;
   }
   
   .btn-container {
@@ -402,6 +410,7 @@ html {
   .project-title {
     margin: 1rem;
     color: black;
+    font-size: 1.5rem;
   }
   
   .project-btn {
